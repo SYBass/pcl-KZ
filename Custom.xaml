@@ -1,4 +1,4 @@
-﻿<local:MyButton HorizontalAlignment="Left" Width="80" Height="35" Text="打开→" EventType="打开帮助" EventData="" />
+﻿<local:MyButton HorizontalAlignment="Left" Width="80" Height="35" Text="打开→" EventType="打开帮助" EventData="https://gitee.com/csy0519/pcl-KZ/blob/main/Help/%E5%AD%90%E9%A1%B5%E9%9D%A22.JSON" />
 <!-- 
 
 全部通用的属性：
