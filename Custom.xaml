@@ -43,10 +43,10 @@
     	<TextBlock x:Name="Text1" HorizontalAlignment="Left" Text=" Provided by Shiyang  " FontSize="13" Style="{StaticResource Text}" Foreground="#8D724C" Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/8/12更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/8/17更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.3.7（正式版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.3.8（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
 
@@ -315,6 +315,24 @@
 <local:MyButton Margin="0,0,0,8" Text="新闻主页" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
        </StackPanel>
 </local:MyCard>
+           <local:MyCard Title="更多页面..." Margin="0,0,0,20">
+              <StackPanel Margin="25,40,23,15">
+                <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="100" />
+                  </Grid.ColumnDefinitions>
+                  <local:MyComboBox x:Name="jumpbox" Height="30" SelectedIndex="0">
+                    <local:MyComboBoxItem Content="学习专区" />
+                    <local:MyComboBoxItem Content="mod介绍" />
+                    <local:MyComboBoxItem Content="新闻主页" />
+                    <local:MyComboBoxItem Content="功能页" />
+                  </local:MyComboBox>
+                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://github.com/shiyang0510/pcl-KZ/tree/a8617095ebde75f6b7d91093509379af7113993e/Help/{0}.json}" />
+                </Grid>
+              </StackPanel>
+            </local:MyCard>
+
  <TextBlock Text="PCL2自定义主页（SYC）" FontSize="16" Margin="0,5,5,5" />
         <TextBlock Text="By：仕洋SY（仕洋不是羊）" />
         <TextBlock Text="维护：仕洋SY（仕洋不是羊）" />
@@ -331,23 +349,6 @@
           <TextBlock Text="Gitee:  " />
           <local:MyTextButton Text="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/Custom.xaml" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/Custom.xaml" ToolTip="点击打开Gitee" Margin="0,0,0,15"/>
         </StackPanel>
-           <local:MyCard Title="更多页面..." Margin="0,0,0,20">
-              <StackPanel Margin="25,40,23,15">
-                <Grid>
-                  <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*" />
-                    <ColumnDefinition Width="100" />
-                  </Grid.ColumnDefinitions>
-                  <local:MyComboBox x:Name="jumpbox" Height="30" SelectedIndex="0">
-                    <local:MyComboBoxItem Content="学习专区" />
-                    <local:MyComboBoxItem Content="mod介绍" />
-                    <local:MyComboBoxItem Content="新闻主页" />
-                    <local:MyComboBoxItem Content="功能页" />
-                  </local:MyComboBox>
-                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://gitee.com/csy0519/pcl-KZ/tree/main/Help/{0}.json}" />
-                </Grid>
-              </StackPanel>
-            </local:MyCard>
 
 
 
