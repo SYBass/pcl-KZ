@@ -328,7 +328,7 @@
                     <local:MyComboBoxItem Content="新闻主页" />
                     <local:MyComboBoxItem Content="功能页" />
                   </local:MyComboBox>
-                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://shiyang0510.github.io/pcl-KZ/Help/{0}.json}" />
+                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://shiyang0510.github.io/pcl-KZ/tree/main/Help/{0}.json}" />
                 </Grid>
               </StackPanel>
             </local:MyCard>
