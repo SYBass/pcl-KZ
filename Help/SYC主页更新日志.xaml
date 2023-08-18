@@ -63,6 +63,31 @@
         </StackPanel>
     </StackPanel>
 </local:MyCard>
+<local:MyCard Title="1.3.5 | 快照版更新" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="SYC 1.3.5 | 快照版更新" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+             </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 新增功能" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="切换页面" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+            </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 日志" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="       这次更新非常有趣我检查出来一个BUG没想到啊，我用自定 义主页卡出来了！" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 读后语" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+          <TextBlock Text="反馈地址:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+          <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击复制到剪贴板" Margin="0,2,0,0"/>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
 <!-- 
 
 全部通用的属性：
