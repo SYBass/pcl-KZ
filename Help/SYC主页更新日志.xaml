@@ -32,6 +32,37 @@
         </StackPanel>
     </StackPanel>
 </local:MyCard>
+<local:MyCard Title="1.3.7 | 正式版更新" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="SYC 1.3.7 | 正式版更新" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+             </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 最新功能" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="mod介绍（下载，百科，宣传片）&#xa;介绍栏更改为透明式（新闻主页样式）&#xa;新闻主页可用" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+            </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 快照版" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 吐槽" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="       这次的更新是我在快照版的新测试搬过来的，同时我也赞助了龙猫来好获取最新资源可以为大家测试新功能。（同时也在找BUG）这此更新，我发现了龙猫两个BUG，首先：当使用新功能【跳转页面】EventData如果等于 ”3|3“ 就会卡出联机页面，并且跳转页面不完善。然后：龙猫新增控件 MyIconTextButton 并没有讲使用方法，只能自己摸索，其实就是上面菜单栏钮按钮，具体方法，还要等龙猫出教程。" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 赠言" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+            <TextBlock Text="我进入了pcl粉丝群，很感谢大家对我自定义主页的支持同时也感谢大家的建议。希望在以后，大家也可以多多提建议，我也在成长！" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4" TextWrapping="Wrap"/>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 读后语" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+          <TextBlock Text="反馈地址:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+          <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击复制到剪贴板" Margin="0,2,0,0"/>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
 <!-- 
 
 全部通用的属性：
