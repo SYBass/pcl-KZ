@@ -35,7 +35,7 @@
 
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="将进酒   唐/李白" />
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
-                         Text="君不见，黄河之水天上来，奔流到海不复回。&#xa;
+                         Text="&#xa;君不见，黄河之水天上来，奔流到海不复回。&#xa;
 
                                      君不见，高堂明镜悲白发，朝如青丝暮成雪。&#xa;
 
@@ -64,7 +64,7 @@
 
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="木兰辞   南北朝/佚名" />
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
-                         Text="唧唧复唧唧，木兰当户织。不闻机杼声，唯闻女叹息。&#xa;
+                         Text="&#xa;唧唧复唧唧，木兰当户织。不闻机杼声，唯闻女叹息。&#xa;
 
                                问女何所思，问女何所忆。女亦无所思，女亦无所忆。昨夜见军帖，可汗大点兵，军书十二卷，卷卷有爷名。阿爷无大儿，木兰无长兄，愿为市鞍马，从此替爷征。&#xa;
 
