@@ -335,7 +335,7 @@
                 </Grid>
               </StackPanel>
             </local:MyCard>
-        <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" HorizontalAlignment="Center" Stretch="Fill"  Margin="0,0,0,0"/>
+        <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" HorizontalAlignment="Center" Stretch="Fill"  Margin="0,0,0,20"/>
         <local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
         <StackPanel Margin="25,40,23,15" >
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
