@@ -329,6 +329,7 @@
                     <local:MyComboBoxItem Content="学习专区" />
                     <local:MyComboBoxItem Content="mod介绍" />
                     <local:MyComboBoxItem Content="自定义主页教学" />
+                    <local:MyComboBoxItem Content="SYC主页更新日志">
                   </local:MyComboBox>
                   <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://raw.githubusercontent.com/shiyang0510/pcl-KZ/main/Help/{0}.json}" />
                 </Grid>
@@ -365,7 +366,7 @@
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
           <TextBlock Text="Gitee:  " />
-          <local:MyTextButton Text="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/Custom.xaml" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/Custom.xaml" ToolTip="点击打开Gitee" Margin="0,0,0,15"/>
+          <local:MyTextButton Text="https://github.com/shiyang0510/pcl-KZ/tree/main" EventType="打开网页" EventData="https://github.com/shiyang0510/pcl-KZ/tree/main" ToolTip="点击打开GitHub（要加速器）" Margin="0,0,0,15"/>
         </StackPanel>
 
 
