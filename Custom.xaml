@@ -335,8 +335,7 @@
                 </Grid>
               </StackPanel>
             </local:MyCard>
-        <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" HorizontalAlignment="Center" Stretch="Fill"  Margin="0,0,0,15"/>
-        <local:MyCard Title="回声洞"  Margin="0,15,0,15"  CanSwap="False"  >
+<local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
         <StackPanel Margin="25,40,23,15" >
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
              <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
@@ -349,7 +348,7 @@
                                      	</local:MyButton>
             </StackPanel>
         </StackPanel>
-        </local:MyCard>
+</local:MyCard>
  <TextBlock Text="PCL2自定义主页（SYC）" FontSize="16" Margin="0,5,5,5" />
         <TextBlock Text="By：仕洋SY（仕洋不是羊）" />
         <TextBlock Text="维护：仕洋SY（仕洋不是羊）" />
