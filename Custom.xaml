@@ -308,7 +308,7 @@
 	</Grid.ColumnDefinitions>
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="仕洋B站主页" Info="仕洋B站主页"
                                 EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Type="Clickable"/>
-                <local:MyListItem Margin="0,0,-5,8" Logo="https://ys.mihoyo.com/main/favicon.ico" Title="原神" Info="原神官网"
+                <local:MyListItem Margin="0,0,-5,8" Logo="https://ys.mihoyo.com/main/favicon.ico" Title="原神" Info="原神！启动！"
                                 EventType="打开网页" EventData="https://ys.mihoyo.com/main/" Type="Clickable" Grid.Column="3"/>
 </Grid>
 
