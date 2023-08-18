@@ -308,8 +308,8 @@
 	</Grid.ColumnDefinitions>
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="仕洋B站主页" Info="仕洋B站主页"
                                 EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Type="Clickable"/>
-                <local:MyListItem Margin="0,0,-5,8" Logo="https://gitee.com/static/images/logo-black.svg?t=158106664" Title="自定义主页教学" Info="仕洋编写"
-                                EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/README.md" Type="Clickable" Grid.Column="3"/>
+                <local:MyListItem Margin="0,0,-5,8" Logo="https://ys.mihoyo.com/main/favicon.ico" Title="原神" Info="原神官网"
+                                EventType="打开网页" EventData="https://ys.mihoyo.com/main/" Type="Clickable" Grid.Column="3"/>
 </Grid>
 
 <local:MyButton Margin="0,0,0,8" Text="新闻主页" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
