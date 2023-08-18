@@ -361,10 +361,6 @@
           <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击复制到剪贴板" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
-          <TextBlock Text="最新版日志:  " />
-          <local:MyTextButton Text="爱发电" EventType="打开网页" EventData="https://afdian.net/p/27875ad4392111ee83f552540025c377" ToolTip="点击打开SYC主页更新日志" />
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
           <TextBlock Text="Gitee:  " />
           <local:MyTextButton Text="https://github.com/shiyang0510/pcl-KZ/tree/main" EventType="打开网页" EventData="https://github.com/shiyang0510/pcl-KZ/tree/main" ToolTip="点击打开GitHub（要加速器）" Margin="0,0,0,15"/>
         </StackPanel>

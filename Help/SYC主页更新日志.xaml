@@ -26,13 +26,10 @@
              <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                 <TextBlock Text="· 读后语" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                <TextBlock Text="反馈邮箱：2473573684@qq.com&#xa;开源地址：（暂不公布）" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="0,2,0,4">
-              <TextBlock Text="爱发电： " FontSize="15" Foreground="{DynamicResource ColorBrush2}"/>
-              <local:MyTextButton Text="https://afdian.net/a/sy0519" EventType="打开网页" EventData="https://afdian.net/a/sy0519" ToolTip="点击打开仕洋的爱发电" Margin="0,1,0,0" FontSize="15"/>
-            </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+          <TextBlock Text="反馈地址:  " />
+          <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击复制到剪贴板" />
+        </StackPanel>
     </StackPanel>
 </local:MyCard>
 <!-- 
