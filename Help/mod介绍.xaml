@@ -19,27 +19,6 @@
             <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/393/435/637588742363737916.png" Title="Create" Info="机械动力Forge下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create/files/4626108" Type="Clickable"/>
             </StackPanel>
         </local:MyCard>
-        <local:MyCard Title="介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15"   >
-             <StackPanel Margin="25,40,23,15">
-                    <Image Source="https://i2.mcmod.cn/editor/upload/20220904/1662262119_216326_xMLH.webp" Margin="0,0,0,15"  />
-                    <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    " Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1*" />
-                                    <ColumnDefinition Width="1*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
-                                    <ColumnDefinition Width="1*" /> <!-- 如果不打 *，则会占用固定的宽度 -->
-                                </Grid.ColumnDefinitions>
-                                <local:MyButton Grid.Column="0" Margin="0,0,10,4" Height="35" ColorType="Highlight"
-                                            Text="B站视频" EventType="打开网页" EventData="" />
-                                <local:MyButton Grid.Column="1" Margin="0,0,10,4" Height="35" ColorType="Highlight"
-                                            Text="进入mod百科" EventType="打开网页" EventData=""/>
-                                <local:MyButton Grid.Column="2" Margin="0,0,10,4" Height="35" ColorType="Highlight"
-                                            Text="进入下载" EventType="打开网页" EventData="" />
-                            </Grid>
-            <local:MyListItem Margin="-5,0,-5,8" Logo="" Title="Create" Info="Fabric下载" EventType="打开网页" EventData="" Type="Clickable"/>
-            <local:MyListItem Margin="-5,0,-5,8" Logo="" Title="Create" Info="Forge下载" EventType="打开网页" EventData="" Type="Clickable"/>
-            </StackPanel>
-        </local:MyCard>
 
 <!-- 
 
