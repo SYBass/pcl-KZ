@@ -1,4 +1,11 @@
-﻿
+﻿<local:MyCard Title="1.3.9 | 快照版更新" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="SYC 1.3.8 | 快照版更新"FontSize="16" FontWeight="Bold" />
+                
+            </StackPanel>
+    </StackPanel>
+</local:MyCard>
 
 <!-- 
 
