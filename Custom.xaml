@@ -335,7 +335,7 @@
               </StackPanel>
             </local:MyCard>
             
-<local:MyCard Title="回声洞"  Margin="0,10,0,15"  CanSwap="False"  >
+<local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
 <StackPanel Margin="25,40,23,15" >
      <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
