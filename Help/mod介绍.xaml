@@ -1,4 +1,4 @@
-﻿        <local:MyCard Title="机械动力(Create)介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15" Grid.Row="0" Grid.Column="3"  >
+﻿        <local:MyCard Title="机械动力(Create)介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15"   >
              <StackPanel Margin="25,40,23,15">
                     <Image Source="https://i2.mcmod.cn/editor/upload/20220904/1662262119_216326_xMLH.webp" Margin="0,0,0,15"  />
                     <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    机械动力(Create)是一个围绕着建筑、装饰和机械的新兴模组，所添加的元素旨在为玩家提供全新的建筑与自动化体验，并尽可能多地为玩家预留自定义空间。在机器与能源方面，模组做出了极大的创新。机器不再由传统科技模组中乏味的电线供能，而是需要玩家搭建机械传动系统驱动。加工过程也不再是枯燥的GUI里等待进度条—遍遍被填满，机器可以直接与世界中的物品交互，并且加工时有着精美的动画。模组还具有独创的动态结构系统，可以使世界中的方块结构作为整体运动，进行各种自动化，并且有着真实的物理效果。" Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
