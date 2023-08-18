@@ -335,6 +335,7 @@
                 </Grid>
               </StackPanel>
             </local:MyCard>
+            
 <local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
         <StackPanel Margin="25,40,23,15" >
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
@@ -349,6 +350,7 @@
             </StackPanel>
         </StackPanel>
 </local:MyCard>
+
  <TextBlock Text="PCL2自定义主页（SYC）" FontSize="16" Margin="0,5,5,5" />
         <TextBlock Text="By：仕洋SY（仕洋不是羊）" />
         <TextBlock Text="维护：仕洋SY（仕洋不是羊）" />
