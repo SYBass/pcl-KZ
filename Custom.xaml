@@ -358,7 +358,7 @@
         <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" HorizontalAlignment="Center" Stretch="Fill"  Margin="0,10,0,0"/>
         <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
           <TextBlock Text="反馈地址:  " />
-          <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击复制到剪贴板" />
+          <local:MyTextButton Text="https://gitee.com/csy0519/pcl2-GK-SY/issues" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" ToolTip="点击打开gitee" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
           <TextBlock Text="Github:  " />
