@@ -43,10 +43,10 @@
     	<TextBlock x:Name="Text1" HorizontalAlignment="Left" Text=" Provided by Shiyang  " FontSize="13" Style="{StaticResource Text}" Foreground="#8D724C" Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/8/28更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/9/7更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.3.9（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.4.0.1（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
 
@@ -122,7 +122,12 @@
 
 
     </local:MyCard>
-
+<local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
+<StackPanel Margin="25,40,23,15" >
+    <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
+    <local:MyIconButton ToolTip="刷新回声洞" EventData="刷新主页" EventType="刷新主页" Width="22" HorizontalAlignment="Right" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z" />
+</StackPanel>
+</local:MyCard>
 
 
 
@@ -336,21 +341,7 @@
               </StackPanel>
             </local:MyCard>
             
-<local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
-<StackPanel Margin="25,40,23,15" >
-     <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                                 <local:MyButton Margin="0,4,8,0" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="刷新主页" EventType="刷新主页">
-                                 		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
-                                 			<Path.Data>
-                                 				<PathGeometry FillRule="Nonzero" Figures="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z"/>
-                                 			</Path.Data>
-                                 		</Path>
-                                 	</local:MyButton>
-     </StackPanel>
-</StackPanel>
 
-</local:MyCard>
 
  <TextBlock Text="PCL2自定义主页（SYC）" FontSize="16" Margin="0,5,5,5" />
         <TextBlock Text="By：仕洋SY（仕洋不是羊）" />
