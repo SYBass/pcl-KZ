@@ -38,15 +38,15 @@
 		</BeginStoryboard>
 	</EventTrigger>
 </StackPanel.Triggers>
-<local:MyCard  Height="40" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+<local:MyCard  Height="40" CanSwap="False" IsSwaped="False" Margin="0,0,0,15">
 
     	<TextBlock x:Name="Text1" HorizontalAlignment="Left" Text=" Provided by Shiyang  " FontSize="13" Style="{StaticResource Text}" Foreground="#8D724C" Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/9/7更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/10/20更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.4.0.1（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.4.0.3（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
 
@@ -122,136 +122,15 @@
 
 
     </local:MyCard>
-<local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
-<StackPanel Margin="25,40,23,15" >
-    <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
-    <local:MyIconButton ToolTip="刷新回声洞" EventData="刷新主页" EventType="刷新主页" Width="22" HorizontalAlignment="Right" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z" />
-</StackPanel>
-</local:MyCard>
-<local:MyCard Title="  💖"  Margin="0,0,0,15" Grid.Row="0" Grid.Column="3" CanSwap="True" >
-		<StackPanel Margin="25,40,23,15" Grid.Row="0" Grid.Column="3">
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-        <TextBlock Text="有的人活着" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-        <TextBlock Text="他已经死了" HorizontalAlignment="Center" Opacity="0.85" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-        
-			<TextBlock  Opacity="0.9" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center" FontSize="16"
-				Text=""/>
-        <TextBlock Text="有的人死了" HorizontalAlignment="Center" Opacity="0.70" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-        <TextBlock Text="但他还活着" HorizontalAlignment="Center" Opacity="0.60" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-			<TextBlock  Opacity="0.5" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush4}" HorizontalAlignment="Right" FontStyle="Italic" FontSize="14"
-				Text="——臧克家《有的人》"/>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="网站" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
+            <local:MyCard Margin="0,0,0,15" Title="回声洞" x:Name="PanHint">
+                <local:MyIconButton LogoScale="1.1" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z"
+                                    Height="21" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top"
+                                    ToolTip="刷新回声洞" EventData="刷新主页" EventType="刷新主页" />
+                <StackPanel Margin="25,38,23,15">
+                    <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
+                </StackPanel>
+            </local:MyCard>
+<local:MyCard Title="网站" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15" >
 
 
@@ -317,7 +196,6 @@
 </local:MyCard>
 
 
-
            <local:MyCard Title="更多页面..." Margin="0,0,0,15">
               <StackPanel Margin="25,40,23,15">
                 <Grid>
@@ -326,30 +204,15 @@
                     <ColumnDefinition Width="100" />
                   </Grid.ColumnDefinitions>
                   <local:MyComboBox x:Name="jumpbox" Height="30" SelectedIndex="0">
-                    <local:MyComboBoxItem Content="学习专区" />
                     <local:MyComboBoxItem Content="mod介绍" />
                     <local:MyComboBoxItem Content="自定义主页教学"/>
                     <local:MyComboBoxItem Content="SYC主页更新日志"/>
+                    <local:MyComboBoxItem Content="小功能" />
                   </local:MyComboBox>
                   <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://ghproxy.com/raw.githubusercontent.com/shiyang0510/pcl-KZ/main/Help/{0}.json}" />
                 </Grid>
               </StackPanel>
             </local:MyCard>
-            
-
-
- <TextBlock Text="PCL2自定义主页（SYC）" FontSize="16" Margin="0,5,5,5" />
-        <TextBlock Text="By：仕洋SY（仕洋不是羊）" />
-        <TextBlock Text="维护：仕洋SY（仕洋不是羊）" />
-        <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" HorizontalAlignment="Center" Stretch="Fill"  Margin="0,10,0,0"/>
-        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-          <TextBlock Text="反馈地址:  " />
-          <local:MyTextButton Text="https://gitee.com/csy0519/pcl2-GK-SY/issues" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" ToolTip="点击打开gitee" />
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
-          <TextBlock Text="Github:  " />
-          <local:MyTextButton Text="https://github.com/shiyang0510/pcl-KZ/tree/main" EventType="打开网页" EventData="https://github.com/shiyang0510/pcl-KZ/tree/main" ToolTip="点击打开GitHub（要加速器）" Margin="0,0,0,15"/>
-        </StackPanel>
 
 
 
