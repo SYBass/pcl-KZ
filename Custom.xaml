@@ -43,10 +43,10 @@
     	<TextBlock x:Name="Text1" HorizontalAlignment="Left" Text=" Provided by Shiyang  " FontSize="13" Style="{StaticResource Text}" Foreground="#8D724C" Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/10/20更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/11/7更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.4.0.3（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.4.0.4（快照版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
 
@@ -121,7 +121,19 @@
                                                                        	</local:MyButton>
 
 
-    </local:MyCard>
+</local:MyCard>
+
+
+			<local:MyCard Margin="0,0,0,15" Title="公告/更新通知" >
+                <local:MyIconButton LogoScale="1.1" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z"
+                                    Height="21" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top"
+                                    ToolTip="刷新" EventData="刷新主页" EventType="刷新主页" />
+                <StackPanel Margin="25,38,23,15">
+                    <TextBlock Text="    	  本次更新日期为11.7 主要为小更新1.4.0.4 新增公告（没有大版本更新时就用公告）。更多页面也欢迎大家使用（小功能没写完）。我知道最近很咕咕咕，没办法，毕竟要上学嘛...望理解！快照应该会时不时更新，正式版真的要看龙猫..."  HorizontalAlignment="Left" TextWrapping="Wrap" />
+                </StackPanel>
+            </local:MyCard>
+
+			
             <local:MyCard Margin="0,0,0,15" Title="回声洞" x:Name="PanHint">
                 <local:MyIconButton LogoScale="1.1" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z"
                                     Height="21" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top"
@@ -130,6 +142,7 @@
                     <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
                 </StackPanel>
             </local:MyCard>
+
 <local:MyCard Title="网站" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15" >
 
@@ -191,12 +204,12 @@
                                 EventType="打开网页" EventData="https://ys.mihoyo.com/main/" Type="Clickable" Grid.Column="3"/>
 </Grid>
 
-<local:MyButton Margin="0,0,0,8" Text="新闻主页" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
+<local:MyButton Margin="0,0,0,8" Text="新闻主页 - 信标" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
        </StackPanel>
 </local:MyCard>
 
 
-           <local:MyCard Title="更多页面..." Margin="0,0,0,15">
+           <local:MyCard Title="更多页面（仕洋编写）" Margin="0,0,0,15">
               <StackPanel Margin="25,40,23,15">
                 <Grid>
                   <Grid.ColumnDefinitions>
